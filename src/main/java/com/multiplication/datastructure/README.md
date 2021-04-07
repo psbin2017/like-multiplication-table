@@ -87,7 +87,5 @@ public class Test {
 
 다항식으로 표현된 경우 최고차항이 빅-오가 된다.
 
-```text
-T(n) = 2n + 1 ... O(n)
-T(n) = n^4 + 10n^3 + 1 ... O(n^4)
-```
+- T(n) = 2n + 1 ... O(n)
+- T(n) = n<sup>4</sup> + 10n<sup>3</sup> + 1 ... O(n<sup>4</sup>)
