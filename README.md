@@ -81,3 +81,23 @@
     - 스트레이티지 (Strategy)
     - 템플릿 메소드 (Template Method)
     - 방문자 (Visitor)
+
+- - -
+
+## 구구단 방법
+
+알고리즘의 경우, 코드 다 지우고 시작. 가능하면 5분 이내로 시간 제한
+
+1. 동일한 맥락을 가진 코드면 7단 ~
+2. 각 `README.md` 헤더 보고 구현시 5단 ~
+3. 각 `README.md` 케이스 보고 구현시 3단 ~
+4. 구현 못하면 1단 및 횟수 초기화
+
+## 구구단 일지
+
+- 구구단 지수: 구구단처럼 자연스러운 지수, 1단이 가장 익숙하지 않고 9단은 바로 튀어나올수 있는 수준.
+
+| 대분류 | 구분 | 시작 일자 | 반복 횟수 | 구구단 지수 |
+| --- | --- | --- | --- | --- |
+| 알고리즘 | [버블 정렬](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/algorithm/sort/bubble/README.md) | 2021-04-07 | 1회 | 8단 |
+| 알고리즘 | [선택 정렬](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/algorithm/sort/selection/README.md) | 2021-04-07 | 1회 | 7단 |
