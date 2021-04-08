@@ -12,7 +12,7 @@ public class Queue<T> {
     private Node<T> first;
     private Node<T> last;
 
-    class Node<S> {
+    private class Node<S> {
         private S data;
         private Node<S> next;
 
@@ -37,13 +37,12 @@ public class Queue<T> {
 
     public T remove() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not element");
+            throw new NoSuchElementException("not elements");
         }
 
         T data = first.data;
         first = first.next;
-
-        if ( first == null ) {
+        if ( isEmpty() ) {
             last = null;
         }
         return data;
@@ -51,7 +50,7 @@ public class Queue<T> {
 
     public T peek() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not element");
+            throw new NoSuchElementException("not elements");
         }
 
         return first.data;
@@ -60,4 +59,5 @@ public class Queue<T> {
     public boolean isEmpty() {
         return first == null;
     }
+
 }

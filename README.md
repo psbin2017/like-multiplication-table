@@ -102,3 +102,5 @@
 | 알고리즘 | [버블 정렬](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/algorithm/sort/bubble/README.md) | 2021-04-07 | 1회 | 8단 | |
 | 알고리즘 | [선택 정렬](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/algorithm/sort/selection/README.md) | 2021-04-07 | 1회 | 7단 | |
 | 알고리즘 | [삽입 정렬](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/algorithm/sort/insertion/README.md) | 2021-04-07 | 2회 | 5단 | 테스트 케이스 2회 실패 후 성공 |
+| 자료구조 | [큐](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/datastructure/linear/queue/README.md) | 2021-04-08 | 1회 | 5단 | |
+| 자료구조 | [스택](https://github.com/psbin2017/like-multiplication-table/blob/master/src/main/java/com/multiplication/datastructure/linear/stack/README.md) | 2021-04-08 | 1회 | 5단 | |

@@ -11,7 +11,7 @@ public class Stack <T> {
 
     private Node<T> top;
 
-    class Node<S> {
+    private class Node<S> {
         private S data;
         private Node<S> next;
 
@@ -32,7 +32,7 @@ public class Stack <T> {
 
     public T pop() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not element");
+            throw new NoSuchElementException("not elements");
         }
 
         T data = top.data;
@@ -42,8 +42,9 @@ public class Stack <T> {
 
     public T peek() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not element");
+            throw new NoSuchElementException("not elements");
         }
+
         return top.data;
     }
 
