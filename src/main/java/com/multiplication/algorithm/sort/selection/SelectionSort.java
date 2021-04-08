@@ -6,19 +6,20 @@ package com.multiplication.algorithm.sort.selection;
 public class SelectionSort {
 
     public void sort(int[] arr) {
-        for (int i = 0; i < arr.length - 1; i++) {
-            int value = arr[i];
+        for ( int i = 0; i < arr.length - 1; i++ ) {
+
+            int min = arr[i];
             int index = i;
 
-            for (int j = i + 1; j < arr.length; j++ ) {
-                if ( value > arr[j] ) {
-                    value = arr[j];
+            for ( int j = i + 1; j < arr.length; j++ ) {
+                if ( arr[j] < min ) {
+                    min = arr[j];
                     index = j;
                 }
             }
 
             arr[index] = arr[i];
-            arr[i] = value;
+            arr[i] = min;
         }
     }
 

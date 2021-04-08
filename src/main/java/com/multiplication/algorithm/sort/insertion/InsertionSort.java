@@ -5,17 +5,18 @@ package com.multiplication.algorithm.sort.insertion;
  */
 public class InsertionSort {
 
-    public void sortInsertion(int[] arr) {
+    public void sort(int[] arr) {
         for ( int i = 1; i < arr.length; i++ ) {
-            int min = arr[i];
+
+            int value = arr[i];
             int range = i - 1;
 
-            while ( (range >= 0) && (arr[range] > min) ) {
+            while ( (range >= 0) && (arr[range] > value ) ) {
                 arr[range + 1] = arr[range];
                 range--;
             }
 
-            arr[range + 1] = min;
+            arr[range + 1] = value;
         }
     }
 

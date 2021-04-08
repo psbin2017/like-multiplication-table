@@ -3,6 +3,8 @@ package com.multiplication.algorithm.sort.insertion;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
+import java.util.Arrays;
+
 import static org.junit.jupiter.api.Assertions.*;
 
 class InsertionSortTest {
@@ -15,10 +17,12 @@ class InsertionSortTest {
 
         // when
         InsertionSort insertionSort = new InsertionSort();
-        insertionSort.sortInsertion(actual);
+        insertionSort.sort(actual);
         int[] expected = new int[]{1,3,5,7,9,11,13};
 
         // then
+        System.out.println(Arrays.toString(expected) );
+        System.out.println(Arrays.toString(actual) );
         assertArrayEquals(expected, actual);
     }
 }
