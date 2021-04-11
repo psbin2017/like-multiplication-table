@@ -30,4 +30,4 @@
 2. 제품을 생성한다.
 3. 확장 가능한 팩토리들을 정의한다.
 
-![추상 팩토리 구조](../../../../../../images/creation/abstractfactory/packageAbstractfactory.png)
+![추상 팩토리 구조](../../../../../../../../images/designpattern/creation/abstractfactory/packageAbstractfactory.png)
