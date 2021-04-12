@@ -11,28 +11,27 @@ public class Stack <T> {
 
     private Node<T> top;
 
-    private class Node<S> {
-        private S data;
-        private Node<S> next;
+    private class Node <T2> {
+        private final T2 data;
+        private Node<T2> next;
 
-        public Node(S data) {
+        public Node(T2 data) {
             this.data = data;
         }
     }
 
-    public void push(T item) {
-        Node<T> node = new Node<>(item);
+    public void push(T data) {
+        Node<T> node = new Node<>(data);
 
         if ( top != null ) {
             node.next = top;
         }
-
         top = node;
     }
 
     public T pop() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not elements");
+            throw new NoSuchElementException("not element");
         }
 
         T data = top.data;
@@ -42,13 +41,13 @@ public class Stack <T> {
 
     public T peek() {
         if ( isEmpty() ) {
-            throw new NoSuchElementException("not elements");
+            throw new NoSuchElementException("not element");
         }
 
         return top.data;
     }
 
-    public boolean isEmpty() {
+    private boolean isEmpty() {
         return top == null;
     }
 }

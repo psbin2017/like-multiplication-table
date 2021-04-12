@@ -3,9 +3,7 @@ package com.multiplication.algorithm.sort.insertion;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 
-import java.util.Arrays;
-
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertArrayEquals;
 
 class InsertionSortTest {
 
@@ -21,8 +19,6 @@ class InsertionSortTest {
         int[] expected = new int[]{1,3,5,7,9,11,13};
 
         // then
-        System.out.println(Arrays.toString(expected) );
-        System.out.println(Arrays.toString(actual) );
         assertArrayEquals(expected, actual);
     }
 }
