@@ -41,7 +41,7 @@
   - `Creator` 클래스의 서브 클래스가 되는 템플릿 클래스를 정의하여 해당 클래스가 `Product` 클래스로 매개변수화 되도록 만드는 것이다. 
 5. 명명 규칙을 따르는 것도 중요한 일이다.
 
-![팩토리 메소드 구조](../../../../../../../../images/designpattern/creation/builder/packageBuilder.png)
+![팩토리 메소드 구조](../../../../../../../../images/designpattern/creation/factorymethod/packageFactorymethod.png)
 
 ## 연관 패턴
 
